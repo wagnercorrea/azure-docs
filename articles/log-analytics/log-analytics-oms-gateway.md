@@ -170,7 +170,7 @@ After completing the integration with Log Analytics, you can remove the change b
 3. Click **Finish**. Your Operations Manager management group is now configured to communicate through the gateway server to the Log Analytics service.
 
 ### Configure Operations Manager - specific agents use proxy server
-For large or complex environments, you may only want specific servers (or groups) to use the OMS Gateway server.  For these servers, you cannot update the Operations Manager agent directly as this value is overwritten by the global value for the management group.  Instead you need to override the rule used to push these values.  
+For large or complex environments, you may only want specific servers (or groups) to use the OMS Gateway server.  For these servers, you can not update the Operations Manager agent directly as this value is overwritten by the global value for the management group.  Instead you need to override the rule used to push these values.  
 
 > [!NOTE] 
 > This same configuration technique can be used to allow the use of multiple OMS Gateway servers in your environment.  For example, you may require specific OMS Gateway servers to be specified on a per-region basis.
